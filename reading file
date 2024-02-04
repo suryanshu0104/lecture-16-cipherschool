@@ -1,0 +1,19 @@
+import java.io.BufferedReader;
+
+import java.io.FileReader; 3
+
+public class Teste (
+
+public static void main(String[] args) throws Exception {
+
+FileReader fr = new FileReader("/Users/rajan/Desktop/rhyme.txt");
+
+BufferedReader br = new BufferedReader(fr);
+
+String line = br.readLine();
+
+System.out.println(line);
+  }
+br.close;
+
+}
